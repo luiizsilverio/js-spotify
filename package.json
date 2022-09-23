@@ -1,0 +1,14 @@
+{
+  "name": "js-spotify",
+  "version": "1.0.0",
+  "description": "Clone da homepage do Spotify",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./styles.css -o ./src/css/styles.css --watch"
+  },
+  "author": "Luiz Oliveira <luiiz.silverio@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

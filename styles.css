@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .main-spotify {
+    @apply flex flex-col justify-center text-center bg-spotify-theme-mobile py-40 px-4 md:bg-spotify-theme bg-banner-mobile md:bg-banner bg-195% md:bg-175% bg-purple-main text-green-main;
+  }
+
+  .main-link-obtenha {
+    @apply bg-green-main text-purple-main text-lg rounded-full px-10 py-3 uppercase font-bold max-w-xl mx-auto tracking-widest transition duration-500;
+  }
+
+  .main-link-obtenha:hover {
+    @apply bg-white;
+  }
+
+
+}
