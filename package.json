@@ -1,5 +1,5 @@
 {
-  "name": "js-spotify",
+  "name": "spotify-clone",
   "version": "1.0.0",
   "description": "Clone da homepage do Spotify",
   "main": "index.js",
